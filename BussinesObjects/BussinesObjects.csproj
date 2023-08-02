@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Houses\DTOs\" />
+    <Folder Include="Houses\Interfaces\Ports\DeleteHome\" />
+    <Folder Include="Houses\Interfaces\Ports\GetHome\" />
+    <Folder Include="Houses\Interfaces\Ports\UpdateHome\" />
+  </ItemGroup>
+
+</Project>
